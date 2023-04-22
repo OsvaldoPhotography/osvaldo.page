@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact | osvaldo sánchez</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="resources/favicon.ico" type="image/ico" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Start nav here -->
+    <nav>
+        <a class="logo" href="index.html">
+            <img class="logo" src="resources/async-header-logo.svg" alt="Aquí va el logo del header"/>
+        </a>
+        <ul class="nav-links">
+            <li>
+                <a href="about-me.html" class="show-text-onHover-link"
+                    data-hover="algunos escriben su vida en hojas, yo la escribo en fotos.">about me</a>
+            </li>
+            <li>
+                <a href="work.html" class="show-text-onHover-link"
+                    data-hover="descubre todas mis fotografías.">portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html" class="show-text-onHover-link"
+                    data-hover="estaba por contratarte ahora mismo.">contact</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <!-- End nav here -->
+
+    <!-- Start main content here -->
+    <main>
+        <section>
+
+            <div class="column-1">
+                <div>
+                    <h1 class="title" data-aos="zoom-in-up" data-aos-duration="1000">contact.</h1>
+                    <p data-aos="zoom-in-up" data-aos-duration="1000">osvagam07@outlook.com</p>
+                    <p data-aos="zoom-in-up" data-aos-duration="1000">@kid.osvld</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="address-text" data-aos="zoom-in-up" data-aos-duration="1000">la paz, baja sur, mx.</p>
+                </div>
+
+            </div>
+
+            <div class="column-2">
+
+                <div id="form_container" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <form role="form" method="post" id="reused_form">
+
+                        <input class="input-text" placeholder="your name here." type="text" id="name" name="name"
+                            required>
+
+                        <input class="input-text" placeholder="your email here." type="email" id="email" name="email"
+                            required>
+
+                        <textarea class="input-text" placeholder="message." type="textarea" id="message" name="message"
+                            maxlength="6000" rows="7"></textarea>
+
+                        <button >send</button>
+
+                    </form>
+                    <div id="success_message" style="width:100%; height:100%; display:none; ">
+                        <h3>your message was sended successfully!</h3>
+                    </div>
+                    <div id="error_message" style="width:100%; height:100%; display:none; ">
+                        <h3>Error</h3> Sorry, there was an error sending your form.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+          <!-- Start footer here -->
+          <footer>
+            <div class="copyright">
+                <a class="footer-logo" href="index.html">
+                    <img src="resources/logo-footer.svg" alt="aqui va el logo del footer"/>
+                </a>
+                <p class="terms-privacy-policy">
+                    <strong>© osvaldo sánchez 2023</strong> <span>all rights reserved</span>
+                </p>
+            </div>
+
+            <div class="social-container">
+                <ul class="social">
+                    <li><a target=_blank href="https://www.instagram.com/kid.osvld/">instagram</a></li>
+                    <li><a href="">youtube</a></li>
+                    <li style="display: none;"><a href="">blog</a></li>
+                </ul>
+            </div>
+
+            <p class="terms-privacy-policy-mobile">
+                <strong>© osvaldo sánchez 2023</strong> <span>all rights reserved</span>
+            </p>
+        </footer>
+        <!-- End footer here -->
+
+    </main>
+    <!-- End main content here -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="contact-form/form.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
